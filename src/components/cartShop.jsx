@@ -42,7 +42,7 @@ export default function cartShop() {
     setCart(newCart)
   }
 
-  console.log(cart)
+  console.log('test')
 
   return (
     <>
