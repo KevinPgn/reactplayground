@@ -1,0 +1,62 @@
+.container-todo{
+    max-width: 700px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.container-todo h1{
+    font-size: 50px;
+    font-weight: 700;
+    color: #f9f9f9;
+    margin-bottom: 30px;
+}
+
+.container-todo .todo-add{
+    width: 100%;
+    padding: 10px;
+    font-size: 1.1rem;
+}
+
+.container-todo .todo-add:focus{
+    outline: none;
+}
+
+.container-todo .todo-add::placeholder{
+    color: #5b4e4e;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+ ul li{
+    color: white;
+    font-size: 1.2rem;
+    margin: 20px 0;
+    background: rgb(235, 117, 117);
+    width: 200px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+ul li.completed{
+    background: rgb(42, 188, 22);
+}
+
+
+ul li .todo-delete{
+    color: #ffffff;
+    font-size: 1.2rem;
+    border: none;
+    background: crimson;
+    cursor: pointer;
+    margin-left: 10px;
+    padding: 0 5px;
+    width: 50px;
+}
