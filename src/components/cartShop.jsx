@@ -12,15 +12,14 @@ export default function cartShop() {
   const [price, setPrice] = useState(150)
   const [img, setImg] = useState(Chaussure1)
 
-
   const [cart, setCart] = useState([])
 
   const increment = () => {
-    setNumber(number + 1)
+    setNumber(c => c + 1)
   }
 
   const decrement = () => {
-    setNumber(number - 1)
+    setNumber(c => c - 1)
 
     if (number <= 1) {
       setNumber(1)
