@@ -4,7 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 
-import Navbar from './components/navbar'
+import Navbar from './components/navbar/navbar'
 import Home from './pages/home'
 import Popup from './pages/popup'
 import Todo from './pages/todo'

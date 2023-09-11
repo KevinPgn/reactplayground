@@ -1,6 +1,6 @@
 import React from 'react'
 import { useState, useEffect } from 'react'
-import "../styles/emc.css"
+import "./emc.css"
 
 export default function emc() {
   

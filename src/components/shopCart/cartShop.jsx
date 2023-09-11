@@ -1,8 +1,8 @@
 import React from 'react';
-import "../styles/shop.css"
+import "./shop.css"
 import { useState, useEffect } from 'react'
-import Chaussure1 from '../assets/chaussuresShop/chaussure1.avif'
-import Cart from '../assets/chaussuresShop/cart.png'
+import Chaussure1 from '../../assets/chaussuresShop/chaussure1.avif'
+import Cart from '../../assets/chaussuresShop/cart.png'
 
 
 export default function cartShop() {

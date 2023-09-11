@@ -1,7 +1,7 @@
 import React from 'react'
-import '../styles/emoji.css'
+import "./emoji.css"
 import { useState } from 'react'
-import { emojiList } from '../data/dataEmoji'
+import { emojiList } from '../../data/dataEmoji'
 
 export default function emojiFound() {
   

@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react'
 import { useState } from 'react'
+import "./todo.css"
 
 export default function todoApp() {
   

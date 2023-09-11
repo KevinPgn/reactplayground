@@ -1,6 +1,5 @@
 import React from 'react'
-import '../styles/todo.css'
-import TodoApp from '../components/todoApp'
+import TodoApp from '../components/todo/todoApp'
 
 export default function todo() {
     return (
