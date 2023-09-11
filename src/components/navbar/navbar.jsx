@@ -18,6 +18,7 @@ export default function navbar() {
                     <Link to="/emoji">emoji</Link>
                     <Link to="/emc">emc</Link>
                     <Link to="/shop">shop</Link>
+                    <Link to="/caroussel">caroussel</Link>
                 </div>
             </nav>
         </header>

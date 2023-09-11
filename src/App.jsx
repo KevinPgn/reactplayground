@@ -11,6 +11,7 @@ import Todo from './pages/todo'
 import EmojiFround from './pages/emoji'
 import Emc from './pages/emc'
 import Shop from './pages/shop'
+import Caroussel from './pages/caroussel'
 
 function App() {
 
@@ -24,6 +25,7 @@ function App() {
         <Route path="emoji" element={<EmojiFround />} />
         <Route path="emc" element={<Emc />} />
         <Route path="shop" element={<Shop />} />
+        <Route path="caroussel" element={<Caroussel />} />
     </Routes>
     </>
   )

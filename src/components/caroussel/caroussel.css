@@ -1,0 +1,42 @@
+.caroussel{
+    height: calc(100vh - 70px);
+    padding: 10px 2%;
+    background: white;
+    width: 100%;
+}
+
+.caroussel .caroussel-container{
+    display: flex;
+    max-width: 1300px;
+    margin: 50px auto 0 auto;
+    flex-direction: column;
+}
+
+.caroussel .caroussel-container .caroussel-content{
+    height: 100%;
+    display: inline-flex;
+    width: 100%;
+    position: relative;
+    overflow-x: scroll;
+    margin-top: 50px;
+    gap: 30px;
+}
+
+/* Style the scrollbar */
+.caroussel .caroussel-container .caroussel-content::-webkit-scrollbar {
+    width: 10px;
+}
+
+.caroussel .caroussel-container .caroussel-content::-webkit-scrollbar-track {
+    background-color: #f5f5f5;
+}
+
+.caroussel .caroussel-container .caroussel-content::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+    border-radius: 5px;
+}
+
+.caroussel .caroussel-container .caroussel-content::-webkit-scrollbar-thumb:hover {
+    background-color: #aaa;
+}
+
