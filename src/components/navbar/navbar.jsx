@@ -19,6 +19,7 @@ export default function navbar() {
                     <Link to="/emc">emc</Link>
                     <Link to="/shop">shop</Link>
                     <Link to="/caroussel">caroussel</Link>
+                    <Link to="/compteurMots">compteurMots</Link>
                 </div>
             </nav>
         </header>

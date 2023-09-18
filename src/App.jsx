@@ -12,6 +12,7 @@ import EmojiFround from './pages/emoji'
 import Emc from './pages/emc'
 import Shop from './pages/shop'
 import Caroussel from './pages/caroussel'
+import CompteurMots from './pages/compteurMots'
 
 function App() {
 
@@ -26,6 +27,7 @@ function App() {
         <Route path="emc" element={<Emc />} />
         <Route path="shop" element={<Shop />} />
         <Route path="caroussel" element={<Caroussel />} />
+        <Route path="compteurMots" element={<CompteurMots />} />
     </Routes>
     </>
   )
