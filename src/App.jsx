@@ -13,6 +13,7 @@ import Emc from './pages/emc'
 import Shop from './pages/shop'
 import Caroussel from './pages/caroussel'
 import CompteurMots from './pages/compteurMots'
+import Onglets from './pages/onglets'
 
 function App() {
 
@@ -28,6 +29,7 @@ function App() {
         <Route path="shop" element={<Shop />} />
         <Route path="caroussel" element={<Caroussel />} />
         <Route path="compteurMots" element={<CompteurMots />} />
+        <Route path="onglets" element={<Onglets />} />
     </Routes>
     </>
   )
